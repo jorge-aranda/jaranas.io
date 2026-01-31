@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Jorge Aranda — Product Tech Lead & Backend Engineer</title>
+  <meta name="description" content="Jorge Aranda is a Product Tech Lead & Backend Engineer building scalable systems and product-driven platforms." />
+  <style>
+    :root { --bg:#0b1020; --card:#111833; --text:#e9ecf1; --muted:#a7b0c0; --accent:#7c5cff; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial; background: radial-gradient(1200px 600px at 20% 0%, #1a245a 0%, var(--bg) 55%); color: var(--text); }
+    a { color: inherit; }
+    .wrap { max-width: 1040px; margin: 0 auto; padding: 56px 20px; }
+    .nav { display:flex; justify-content: space-between; align-items:center; gap:16px; margin-bottom: 40px; }
+    .nav strong { letter-spacing: .4px; }
+    .nav a { text-decoration:none; color: var(--muted); margin-left: 14px; }
+    .nav a:hover { color: var(--text); }
+    .hero { display:grid; grid-template-columns: 1.3fr .7fr; gap: 26px; align-items: start; }
+    .badge { display:inline-flex; gap:10px; align-items:center; padding: 8px 12px; border: 1px solid rgba(255,255,255,.12); border-radius: 999px; color: var(--muted); background: rgba(255,255,255,.03); }
+    .badge span { width: 8px; height: 8px; border-radius: 999px; background: var(--accent); display:inline-block; }
+    h1 { font-size: clamp(34px, 4vw, 52px); line-height: 1.05; margin: 14px 0 10px; letter-spacing: -.8px; }
+    .lead { font-size: 18px; line-height: 1.6; color: var(--muted); margin: 0 0 18px; }
+    .cta { display:flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
+    .btn { display:inline-flex; align-items:center; gap:10px; padding: 12px 14px; border-radius: 12px; border: 1px solid rgba(255,255,255,.12); background: rgba(255,255,255,.04); text-decoration:none; }
+    .btn.primary { background: linear-gradient(135deg, var(--accent), #4dd7ff); color: #0b1020; border: none; font-weight: 650; }
+    .btn:hover { transform: translateY(-1px); transition: .15s ease; }
+    .card { padding: 18px; border-radius: 16px; background: rgba(17,24,51,.7); border: 1px solid rgba(255,255,255,.10); }
+    .meta { display:grid; gap:10px; }
+    .meta p { margin:0; color: var(--muted); }
+
+    /* Photo */
+    .avatar {
+      width: 132px;
+      height: 132px;
+      border-radius: 999px;
+      object-fit: cover;
+      display: block;
+      border: 1px solid rgba(255,255,255,.14);
+      box-shadow: 0 18px 50px rgba(0,0,0,.35);
+      margin-bottom: 12px;
+      background: rgba(255,255,255,.06);
+    }
+    .meta-header { display:flex; align-items:center; justify-content: space-between; gap: 12px; }
+    .meta-title { display:flex; flex-direction: column; gap: 4px; }
+    .meta-title strong { font-size: 16px; }
+    .meta-title span { color: var(--muted); font-size: 13px; }
+
+    .grid { display:grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 22px; }
+    .grid h3 { margin: 0 0 8px; font-size: 14px; text-transform: uppercase; letter-spacing: .12em; color: #cbd2e1; }
+    .grid p { margin: 0; color: var(--muted); line-height: 1.55; }
+    .section { margin-top: 44px; }
+    .section h2 { font-size: 20px; margin: 0 0 12px; }
+    .list { display:grid; gap: 12px; }
+    .item { padding: 14px; border-radius: 14px; border: 1px solid rgba(255,255,255,.10); background: rgba(255,255,255,.03); }
+    .item strong { display:block; margin-bottom: 6px; }
+    footer { margin-top: 54px; color: var(--muted); font-size: 13px; }
+    @media (max-width: 860px) { .hero { grid-template-columns: 1fr; } .grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="nav">
+      <strong>Jorge Aranda</strong>
+      <div>
+        <a href="#about">About</a>
+        <a href="#work">What I do</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+
+    <div class="hero">
+      <div>
+        <div class="badge"><span></span> Product Tech Lead • Backend Engineer</div>
+        <h1>Building products with strong engineering foundations.</h1>
+        <p class="lead">
+          I help teams ship reliable, scalable backend systems while keeping product outcomes front and center.
+          From architecture and execution to mentoring and delivery, I bridge strategy and hands-on engineering.
+        </p>
+
+        <div class="cta">
+          <a class="btn primary" href="#contact">Let’s talk</a>
+          <a class="btn" href="https://www.linkedin.com/in/jorgearanda123/">LinkedIn</a>
+          <a class="btn" href="https://www.github.com/jorge-aranda">GitHub</a>
+        </div>
+
+        <div class="grid">
+          <div class="card">
+            <h3>Product</h3>
+            <p>Roadmap alignment, discovery-to-delivery, metrics, and pragmatic prioritization.</p>
+          </div>
+          <div class="card">
+            <h3>Engineering</h3>
+            <p>Distributed systems, APIs, data modeling, performance, reliability, and security.</p>
+          </div>
+          <div class="card">
+            <h3>Leadership</h3>
+            <p>Team enablement, technical direction, quality bars, and sustainable execution.</p>
+          </div>
+        </div>
+      </div>
+
+      <aside class="card meta">
+        <div class="meta-top">
+          <img
+            class="avatar"
+            src="assets/jorge-aranda.jpg"
+            alt="Professional headshot of Jorge Aranda"
+            loading="lazy"
+          />
+          <h3 class="meta-name">Jorge Aranda</h3>
+          <p class="meta-role">Product Tech Lead • Backend AI Engineer</p>
+        </div>
+
+        <p><strong>Currently focused on</strong><br/>Platform scalability, developer experience, and product-led engineering.</p>
+        <p><strong>Strengths</strong><br/>System design, execution, stakeholder alignment, and mentoring.</p>
+        <p><strong>Stack</strong><br/>[Kotlin (Java)/TypeScript/Python] • [SQL/NoSQL] • [Cloud] • APIs</p>
+        <p><strong>Location</strong><br/>[Madrid, Spain] (open to remote)</p>
+      </aside>
+    </div>
+
+    <div id="about" class="section">
+      <h2>About</h2>
+      <div class="item">
+        <strong>Hi, I’m Jorge.</strong>
+        <div style="color:#a7b0c0; line-height:1.65;">
+          I’m a Product Tech Lead and Backend Engineer who enjoys turning complex business problems into
+          simple, reliable systems. I work best at the intersection of product, engineering, and operations—where
+          decisions need both technical rigor and product empathy.
+        </div>
+      </div>
+    </div>
+
+    <div id="work" class="section">
+      <h2>What I do</h2>
+      <div class="list">
+        <div class="item">
+          <strong>Architecture & system design</strong>
+          Designing scalable services, APIs, and data flows with clear trade-offs and long-term maintainability.
+        </div>
+        <div class="item">
+          <strong>Delivery leadership</strong>
+          Leading execution: defining milestones, managing risk, and ensuring teams ship predictable outcomes.
+        </div>
+        <div class="item">
+          <strong>Backend engineering</strong>
+          Implementing critical paths, improving performance, reducing incidents, and raising code quality standards.
+        </div>
+        <div class="item">
+          <strong>Team enablement</strong>
+          Mentoring engineers, improving developer experience, and building processes that scale with the team.
+        </div>
+      </div>
+    </div>
+
+    <div id="contact" class="section">
+      <h2>Contact</h2>
+      <div class="item">
+        <strong>Want to collaborate?</strong>
+        <div style="color:#a7b0c0; line-height:1.65;">
+          Reach me at <a href="mailto:[YOUR_EMAIL]">[YOUR_EMAIL]</a> or send a message on
+          <a href="https://www.linkedin.com/in/jorgearanda123/">LinkedIn</a>.
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      © <span id="y"></span> Jorge Aranda. Built with a focus on clarity, impact, and engineering craft.
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
