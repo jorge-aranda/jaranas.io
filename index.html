@@ -49,6 +49,10 @@
     .grid h3 { margin: 0 0 8px; font-size: 14px; text-transform: uppercase; letter-spacing: .12em; color: #cbd2e1; }
     .grid p { margin: 0; color: var(--muted); line-height: 1.55; }
     .section { margin-top: 44px; }
+    .talk { display:grid; gap: 14px; }
+    .talk-embed { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 14px; border: 1px solid rgba(255,255,255,.10); }
+    .talk-embed iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; border-radius: 14px; }
+    .talk-meta { padding: 14px; border-radius: 14px; border: 1px solid rgba(255,255,255,.10); background: rgba(255,255,255,.03); }
     .section h2 { font-size: 20px; margin: 0 0 12px; }
     .list { display:grid; gap: 12px; }
     .item { padding: 14px; border-radius: 14px; border: 1px solid rgba(255,255,255,.10); background: rgba(255,255,255,.03); }
@@ -65,6 +69,7 @@
         <a href="#about">About</a>
         <a href="#work">What I do</a>
         <a href="#mentoring">Mentoring</a>
+        <a href="#conferences">Conferences</a>
         <a href="#contact">Contact</a>
       </div>
     </div>
@@ -168,6 +173,40 @@
           <br/><br/>
           Interested? Email me at <a href="mailto:hi@jaranas.io" style="color: var(--accent); font-weight: bold;">hi@jaranas.io</a>
           or let's talk in the <a href="#contact" style="text-decoration: underline;">Contact</a> section.
+        </div>
+      </div>
+    </div>
+
+    <div id="conferences" class="section">
+      <h2>Conferences</h2>
+      <div class="talk">
+        <div class="talk-embed">
+          <iframe
+            src="https://www.youtube.com/embed/3T_ehDPPYvI"
+            title="Junie, más allá de Claude Code ¡en nuestro entorno de confianza!"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+            loading="lazy"
+          ></iframe>
+        </div>
+        <div class="talk-meta">
+          <strong>Junie, más allá de Claude Code ¡en nuestro entorno de confianza! 🇪🇸</strong>
+          <div style="color:#a7b0c0; line-height:1.65; margin-top: 6px;">
+            Agentic tools like Codex, Claude Code, or in this case Junie have completely changed the way we work.
+            Three years ago, when the first LLM-powered chatbots emerged, we started "throwing code" through prompts.
+            However, this wasn't always the most efficient approach — you had to copy and paste, while many routines
+            could still be written and tested much faster with good typing speed than by copying them from ChatGPT.
+            <br/><br/>
+            All of this evolved with generative autocomplete systems in IDEs, until we made the leap to agentic IDEs
+            like Claude Code, Codex, or Junie — capable of not just writing code in your project through prompts, but
+            also installing dependencies, running tests, making commits, and even opening beautifully formatted PRs.
+            <br/><br/>
+            Claude Code is the current king, yet there is an alternative from JetBrains: Junie. An alternative that
+            integrates seamlessly with IntelliJ and the entire JetBrains family, and at a very similar price to Claude
+            Code, it offers powerful integration with the refactoring tools we're already used to.
+            <br/><br/>
+            In this demo we'll show you this alternative that you can integrate into your own workflows.
+          </div>
         </div>
       </div>
     </div>

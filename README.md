@@ -24,8 +24,9 @@ This repository contains the source code for Jorge Aranda's personal landing pag
 
 - Responsive design for mobile and desktop.
 - Dark theme inspired by modern engineering tools.
-- Sections for About, Work Experience/Capabilities, and Contact information.
+- Sections for About, Work Experience/Capabilities, Mentoring, Conferences, and Contact information.
 - Integration with LinkedIn and GitHub.
+- Embedded YouTube talks in the Conferences section with a responsive 16:9 player.
 - Custom redirects for specific paths (e.g., `/nft`).
 
 ## Contact
