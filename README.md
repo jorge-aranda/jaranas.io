@@ -1,12 +1,12 @@
 # jaranas.io
 
-Personal portfolio website for **Jorge Aranda**, Product Tech Lead & Backend AI Engineer.
+Personal portfolio website for **Jorge Aranda de Miguel**, Product Tech Lead & Backend AI Engineer.
 
 The site is accessible at [jaranas.io](https://jaranas.io).
 
 ## Overview
 
-This repository contains the source code for Jorge Aranda's personal landing page. It is a lightweight, single-page application built with focus on clarity, impact, and engineering craft.
+This repository contains the source code for Jorge Aranda de Miguel's personal landing page. It is a lightweight, single-page application built with focus on clarity, impact, and engineering craft.
 
 ## Project Structure
 
