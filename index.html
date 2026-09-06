@@ -220,7 +220,7 @@
           <br/><br/>
           <em>Note: Mentoring sessions can be conducted in either English 🇺🇸 or Spanish 🇪🇸.</em>
           <br/><br/>
-          Interested? Email me at <a href="mailto:hi@jaranas.io" style="color: var(--accent); font-weight: bold;">hi@jaranas.io</a>
+          Interested? Email me at <a href="mailto:jorge@arandademiguel.com" data-contact-email style="color: var(--accent); font-weight: bold;">jorge@arandademiguel.com</a>
           or let's talk in the <a href="#contact" style="text-decoration: underline;">Contact</a> section.
         </div>
       </div>
@@ -319,7 +319,7 @@
       <div class="item">
         <strong>Want to collaborate?</strong>
         <div style="color:#a7b0c0; line-height:1.65;">
-          Reach me at <a href="mailto:hi@jaranas.io">hi@jaranas.io</a> or send a message on
+          Reach me at <a href="mailto:jorge@arandademiguel.com" data-contact-email>jorge@arandademiguel.com</a> or send a message on
           <a href="https://www.linkedin.com/in/jorgearanda123/">LinkedIn</a>.
         </div>
       </div>
@@ -333,6 +333,14 @@
 
     <script>
       document.getElementById("y").textContent = new Date().getFullYear();
+
+      const contactEmail = window.location.hostname === "jaranas.io" || window.location.hostname.endsWith(".jaranas.io")
+        ? "hi@jaranas.io"
+        : "jorge@arandademiguel.com";
+      document.querySelectorAll("[data-contact-email]").forEach((link) => {
+        link.href = "mailto:" + contactEmail;
+        link.textContent = contactEmail;
+      });
 
       // Talks carousel with auto-pause
       (function () {
