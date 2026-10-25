@@ -1,6 +1,6 @@
 # jaranas.io
 
-Personal portfolio website for **Jorge Aranda de Miguel**, Product Tech Lead & Staff Backend AI Engineer.
+Personal portfolio website for **Jorge Aranda de Miguel**, Fractional CTO, Staff Backend AI Engineer & Product Tech Lead.
 
 The site is accessible at [jaranas.io](https://jaranas.io).
 
